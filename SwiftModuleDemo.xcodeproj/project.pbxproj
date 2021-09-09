@@ -15,6 +15,9 @@
 		6C52308526E5AE16002C9FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C52308326E5AE16002C9FFC /* LaunchScreen.storyboard */; };
 		6C52309026E5AE17002C9FFC /* SwiftModuleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C52308F26E5AE17002C9FFC /* SwiftModuleDemoTests.swift */; };
 		6C52309B26E5AE17002C9FFC /* SwiftModuleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C52309A26E5AE17002C9FFC /* SwiftModuleDemoUITests.swift */; };
+		6CE4D69726E9F8E000B2510D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4D69626E9F8E000B2510D /* MainVC.swift */; };
+		6CE4D69F26E9F8ED00B2510D /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4D69E26E9F8ED00B2510D /* MineVC.swift */; };
+		6CE4D6A426E9FED100B2510D /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4D6A326E9FED100B2510D /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		6C52309626E5AE17002C9FFC /* SwiftModuleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftModuleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C52309A26E5AE17002C9FFC /* SwiftModuleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftModuleDemoUITests.swift; sourceTree = "<group>"; };
 		6C52309C26E5AE17002C9FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE4D69626E9F8E000B2510D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		6CE4D69E26E9F8ED00B2510D /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		6CE4D6A326E9FED100B2510D /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		984EDDD56F081E45D5EBF265 /* Pods-SwiftModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftModuleDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftModuleDemo/Pods-SwiftModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +110,10 @@
 		6C52307726E5AE14002C9FFC /* SwiftModuleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6CE4D69526E9F89000B2510D /* Main */,
+				6CE4D69426E9F87D00B2510D /* Net */,
+				6CE4D69326E9F87600B2510D /* Core */,
+				6CE4D69226E9F86D00B2510D /* Base */,
 				6C5230FD26E5E0F1002C9FFC /* RxModule */,
 				6C52307826E5AE14002C9FFC /* AppDelegate.swift */,
 				6C52307A26E5AE14002C9FFC /* SceneDelegate.swift */,
@@ -138,6 +148,37 @@
 			children = (
 			);
 			path = RxModule;
+			sourceTree = "<group>";
+		};
+		6CE4D69226E9F86D00B2510D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6CE4D69326E9F87600B2510D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6CE4D69426E9F87D00B2510D /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		6CE4D69526E9F89000B2510D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4D69626E9F8E000B2510D /* MainVC.swift */,
+				6CE4D69E26E9F8ED00B2510D /* MineVC.swift */,
+				6CE4D6A326E9FED100B2510D /* TabBarVC.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		EA12901F9066ADEB37B6BDF4 /* Frameworks */ = {
@@ -349,7 +390,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C52307D26E5AE14002C9FFC /* ViewController.swift in Sources */,
+				6CE4D69F26E9F8ED00B2510D /* MineVC.swift in Sources */,
+				6CE4D69726E9F8E000B2510D /* MainVC.swift in Sources */,
 				6C52307926E5AE14002C9FFC /* AppDelegate.swift in Sources */,
+				6CE4D6A426E9FED100B2510D /* TabBarVC.swift in Sources */,
 				6C52307B26E5AE14002C9FFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

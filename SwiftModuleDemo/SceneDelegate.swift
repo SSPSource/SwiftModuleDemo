@@ -25,7 +25,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window?.windowScene = windowScene
             window?.backgroundColor = UIColor.white
             window?.makeKeyAndVisible()
-            window?.rootViewController = UITabBarController()
+        let main = MainVC()
+        let mine = mineVC()
+        let tabView = TabBarVC()
+//        tabView.viewControllers = [main,mine]
+        window?.rootViewController = tabView
     }
 
     @available(iOS 13.0, *)
